@@ -13,8 +13,22 @@ Open this folder in Claude Code and describe the change, e.g.
 "add a third photo to Recent Work" or "change the Basic Detail price to $210".
 
 ## Going live
-Works on any static host: GitHub Pages, Netlify, or Cloudflare Pages.
-After it's live, connect a custom domain in the host's settings.
+Hosted on GitHub Pages at https://tristatedetailingllc.com.
+The `CNAME` file tells GitHub Pages which domain to serve; don't delete it.
+
+DNS records at the registrar:
+
+| Type  | Host | Value |
+|-------|------|-------|
+| A     | @    | 185.199.108.153 |
+| A     | @    | 185.199.109.153 |
+| A     | @    | 185.199.110.153 |
+| A     | @    | 185.199.111.153 |
+| AAAA  | @    | 2606:50c0:8000::153 |
+| AAAA  | @    | 2606:50c0:8001::153 |
+| AAAA  | @    | 2606:50c0:8002::153 |
+| AAAA  | @    | 2606:50c0:8003::153 |
+| CNAME | www  | jdfrancisco1.github.io |
 
 ## Brand notes
 Green #01A450, black #111111, white. Headings in Barlow Condensed 800/900 italic, body in Inter.
